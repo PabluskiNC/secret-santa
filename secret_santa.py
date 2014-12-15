@@ -43,7 +43,7 @@ Subject: {subject}
         
 """
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.yml.template')
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.yml')
 
 class Person:
     def __init__(self, name, email, invalid_matches):
