@@ -43,7 +43,7 @@ Subject: {subject}
         
 """
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.yml.heasly')
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.yml.template')
 
 class Person:
     def __init__(self, name, email, invalid_matches):
@@ -175,8 +175,7 @@ call with the --send argument:
             if send:
                 result = server.sendmail(frm, [to], body)
                 print "Emailed %s <%s>" % (pair.giver.name, to)
-                print "    %s ---> %s" % (pair.giver.name, pair.receiver.name)
-
+        
         if send:
             server.quit()
         
