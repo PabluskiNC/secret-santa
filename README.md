@@ -64,6 +64,12 @@ Here is the example configuration unchanged:
 
       http://github.com/underbluewaters/secret-santa
 
+Also, remember to update the year in the outgoing `SUBJECT:` line:
+
+    SUBJECT: Your official [Current-year-here] Consortium 2.0
+
+
+
 Once configured, call secret-santa:
 
     python secret_santa.py
