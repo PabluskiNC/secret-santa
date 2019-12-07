@@ -1,4 +1,5 @@
 .DS_Store
+.pyc
 .vscode
 config.yml
 config.*.yml
