@@ -1,6 +1,6 @@
 .DS_Store
 .vscode
 config.yml
-congig.*.yml
+config.*.yml
 log.txt
 working.txt
