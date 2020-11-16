@@ -11,12 +11,19 @@ Dependencies
 
     pip install -r requirements.txt
 
+In 2020 we upgraded this slightly to work with Python 3.5.2!
+'Cause that was the latest version that pyenv would install on Ben's old iMac.
+
 Usage
 -----
 
 Copy config.yml.template to config.yml and enter in the connection details
-for your outgoing mail server. Modify the participants and couples lists and
-the email message if you wish.
+for your outgoing mail server.
+
+In 2020 Ben set up an "App" at Google to get a Mail-specific password to use.
+See [here](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637410814259150647-336572923&rd=1).
+
+Modify the participants and couples lists and the email message if you wish.
 
     cd secret-santa/
     cp config.yml.template config.yml

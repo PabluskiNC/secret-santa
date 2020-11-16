@@ -5,3 +5,4 @@ config.yml
 config.*.yml
 log.txt
 working.txt
+.python-version
