@@ -99,7 +99,7 @@ def main(argv=None):
     try:
         try:
             opts, args = getopt.getopt(argv[1:], "shc", ["send", "help"])
-        except getopt.error, msg:
+        except getopt.error as msg:
             raise Usage(msg)
 
         # option processing
@@ -139,24 +139,26 @@ def main(argv=None):
         receivers = givers[:]
         pairs = create_pairs(givers, receivers)
         if not send:
-            print """
+            template = """
 Test pairings:
 
-%s
+{}
 
 To send out emails with new pairings,
 call with the --send argument:
 
     $ python secret_santa.py --send
 
-            """ % ("\n".join([str(p) for p in pairs]))
+            """
+            print(template.format("\n".join([str(p) for p in pairs])))
 
         if send:
-            print """
+            template = """
 Actual, for realz pairings:
                 
-%s
-            """ % ("\n".join([str(p) for p in pairs]))
+{}
+            """
+            print(template.format("\n".join([str(p) for p in pairs])))
             server = smtplib.SMTP(config['SMTP_SERVER'], config['SMTP_PORT'])
             server.starttls()
             server.login(config['USERNAME'], config['PASSWORD'])
@@ -179,12 +181,12 @@ Actual, for realz pairings:
             )
             if send:
                 result = server.sendmail(frm, [to], body)
-                print "Emailed %s <%s>" % (pair.giver.name, to)
+                print("Emailed {} <{}>".format(pair.giver.name, to))
 
         if send:
             server.quit()
 
-    except Usage, err:
+    except Usage as err:
         print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
         print >> sys.stderr, "\t for help use --help"
         return 2
