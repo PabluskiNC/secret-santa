@@ -1,0 +1,53 @@
+$ python secret_santa.py --send
+secret_santa.py:66: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  return yaml.load(open(yaml_path))
+
+Actual, for realz pairings:
+
+  "Great Grandma Heasly" -> "Lucy"
+  "Joe & Carolyn" -> "Hannah & Nora of the South & Jack"
+  "Nora of the North & Sebastian" -> "Great Grandma Heasly"
+  "Daniel" -> "Patsy"
+  "Rachel & Mark" -> "Calvin"
+  "Jesse & KT" -> "John"
+  "Paul" -> "The Yardleys (Anne & Richard)"
+  "Leah & Phil" -> "Sarah"
+  "Sarah" -> "Jesse & KT"
+  "Anna" -> "Kathryn"
+  "The McLeans" -> "Leah & Phil"
+  "The Chicagoans (Karen & Alex)" -> "The McLeans"
+  "The St. Louisans (Emily & George)" -> "Paul"
+  "Lucy" -> "Anna"
+  "Patrice" -> "Nora of the North & Sebastian"
+  "Hannah & Nora of the South & Jack" -> "Rachel & Mark"
+  "Kathryn" -> "The Chicagoans (Karen & Alex)"
+  "Carolyn Luisa" -> "Patrice"
+  "The Yardleys (Anne & Richard)" -> "Daniel"
+  "Calvin" -> "Carolyn Luisa"
+  "Elliot" -> "The St. Louisans (Emily & George)"
+  "John" -> "Elliot"
+  "Patsy" -> "Joe & Carolyn"
+
+Emailed Great Grandma Heasly <mamamaria25@gmail.com>
+Emailed Joe & Carolyn <caroalic@maine.rr.com>
+Emailed Nora of the North & Sebastian <lizheasly@gmail.com>
+Emailed Daniel <benjamin.heasly@gmail.com>
+Emailed Rachel & Mark <rheasly@gmail.com>
+Emailed Jesse & KT <jheasly@gmail.com>
+Emailed Paul <paulheasly@gmail.com>
+Emailed Leah & Phil <leahheasly@gmail.com>
+Emailed Sarah <sjheasly@gmail.com>
+Emailed Anna <annaheasly@gmail.com>
+Emailed The McLeans <DLBullen@aol.com>
+Emailed The Chicagoans (Karen & Alex) <karen.l.bullen@gmail.com>
+Emailed The St. Louisans (Emily & George) <emily.c.bullen@gmail.com>
+Emailed Lucy <lucy.d.bullen@gmail.com>
+Emailed Patrice <phheasly@gmail.com>
+Emailed Hannah & Nora of the South & Jack <Christopher.Heasly@gmail.com>
+Emailed Kathryn <kpheasly@gmail.com>
+Emailed Carolyn Luisa <clheasly@gmail.com>
+Emailed The Yardleys (Anne & Richard) <aheasly@gmail.com>
+Emailed Calvin <calhodge1@gmail.com>
+Emailed Elliot <elliot.hodge@gmail.com>
+Emailed John <jheasly@earthlink.net>
+Emailed Patsy <paheasly@gmail.com>
