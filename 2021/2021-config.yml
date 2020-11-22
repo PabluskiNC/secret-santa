@@ -34,20 +34,18 @@ PARTICIPANTS:
 
 # Warning -- if you mess this up you could get an infinite loop
 DONT-PAIR:
-  - Great Grandma Heasly, Paul, Sarah, Anna, John, Patsy
-  - Joe & Carolyn, Nora of the North & Sebastian, Daniel, Jesse & KT
-  - Paul, Sarah, Anna
+  - Great Grandma Heasly, Paul, Sarah, Anna, Patsy, Leah & Phil
+  - Joe & Carolyn, Nora of the North & Sebastian, Daniel
   - The Chicagoans (Karen & Alex), The St. Louisans (Emily & George), Lucy, The McLeans
   - Hannah & Nora of the South & Jack, Carolyn Luisa, Patrice, Kathryn
   - The Yardleys (Anne & Richard), Calvin, Elliot
-  - Hannah & Nora of the South & Jack, The Yardleys (Anne & Richard), Calvin, Elliot
 
 # From address should be the organizer in case participants have any questions
 FROM: Consortium 2.wow <benjamin.heasly@gmail.com>
 
 # Both SUBJECT and MESSAGE can include variable substitution for the 
 # "santa" and "santee"
-SUBJECT: Your Official 2020 Consortium 2.wow
+SUBJECT: Your Official 2021 Consortium 2.wow
 MESSAGE: |
   Dear {santa},
 
