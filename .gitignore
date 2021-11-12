@@ -6,3 +6,5 @@ config.*.yml
 log.txt
 working.txt
 .python-version
+*.iml
+.idea/
