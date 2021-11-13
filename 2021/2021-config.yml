@@ -3,7 +3,7 @@
 SMTP_SERVER: smtp.gmail.com
 SMTP_PORT: 587
 USERNAME: benjamin.heasly@gmail.com
-PASSWORD: jkjkjkjk
+PASSWORD: wybgjsnwpxbvifxb
 
 TIMEZONE: 'US/Eastern'
 
@@ -19,7 +19,7 @@ PARTICIPANTS:
   - Anna <annaheasly@gmail.com>
   - The McLeans <DLBullen@aol.com>
   - The Chicagoans (Karen & Alex) <karen.l.bullen@gmail.com>
-  - The St. Louisans (Emily & George) <emily.c.bullen@gmail.com>
+  - Elizabeth <emily.c.bullen@gmail.com>
   - Lucy <lucy.d.bullen@gmail.com>
   - Patrice <phheasly@gmail.com>
   - Hannah & Nora of the South & Jack <Christopher.Heasly@gmail.com>
@@ -35,16 +35,16 @@ PARTICIPANTS:
 DONT-PAIR:
   - Paul, Sarah, Anna, Patsy, Leah & Phil
   - Joe & Carolyn, Nora of the North & Sebastian, Daniel
-  - The Chicagoans (Karen & Alex), The St. Louisans (Emily & George), Lucy, The McLeans
+  - The Chicagoans (Karen & Alex), Elizabeth, Lucy, The McLeans
   - Hannah & Nora of the South & Jack, Carolyn Luisa, Patrice, Kathryn
   - The Yardleys (Anne & Richard), Calvin, Elliot
 
 # From address should be the organizer in case participants have any questions
-FROM: Consortium 2.wow <benjamin.heasly@gmail.com>
+FROM: Consortium 2.deckthehall <benjamin.heasly@gmail.com>
 
 # Both SUBJECT and MESSAGE can include variable substitution for the 
 # "santa" and "santee"
-SUBJECT: Your Official 2021 Consortium 2.wow
+SUBJECT: Your Official 2021 Consortium 2.deckthehall
 MESSAGE: |
   Dear {santa},
 

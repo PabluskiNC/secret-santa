@@ -1,0 +1,26 @@
+digraph G {
+
+"Anna" -> "The Chicagoans (Karen & Alex)"
+"Calvin" -> "Patrice"
+"Carolyn Luisa" -> "Elizabeth"
+"Daniel" -> "Rachel & Mark"
+"Elizabeth" -> "Carolyn Luisa"
+"Elliot" -> "Hannah & Nora of the South & Jack"
+"Hannah & Nora of the South & Jack" -> "Sarah"
+"Jesse & KT" -> "Patsy"
+"Joe & Carolyn" -> "John"
+"John" -> "Joe & Carolyn"
+"Kathryn" -> "Anna"
+"Leah & Phil" -> "The McLeans"
+"Lucy" -> "Leah & Phil"
+"Nora of the North & Sebastian" -> "Jesse & KT"
+"Patrice" -> "The Yardleys (Anne & Richard)"
+"Patsy" -> "Nora of the North & Sebastian"
+"Paul" -> "Lucy"
+"Rachel & Mark" -> "Daniel"
+"Sarah" -> "Calvin"
+"The Chicagoans (Karen & Alex)" -> "Kathryn"
+"The McLeans" -> "Elliot"
+"The Yardleys (Anne & Richard)" -> "Paul"
+
+}

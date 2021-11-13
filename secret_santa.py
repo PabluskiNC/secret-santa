@@ -61,7 +61,7 @@ class Pair:
         self.receiver = receiver
 
     def __str__(self):
-        return "{} -> {}".format(self.giver.name, self.receiver.name)
+        return "\"{}\" -> \"{}\"".format(self.giver.name, self.receiver.name)
 
 
 def choose_receiver(giver, receivers):
