@@ -9,6 +9,8 @@ specified.
 Dependencies
 ------------
 ```
+# optional: conda create -n secret-santa python=3.11
+#           conda activate secret-santa
 pip install -r requirements.txt
 ```
 
@@ -44,8 +46,17 @@ In 2021 Ben modified this to work in two separate steps.
 
 The first step generates the pairings and saves them to a yaml file.
 ```
-python secret_santa.py --config 2021/2021-config.yml --pairings 2021/2021-pairings.yml
+python secret_santa.py --config 2023/2023-config.yml --pairings 2023/2023-pairings.yml
 ```
+
+Paste that output unto [GraphViz Online](https://dreampuf.github.io/GraphvizOnline/) with a little
+
+```
+node[color="indianred3" style="filled" shape="rounded" fontcolor="green"]
+edge[color="darkolivegreen"]
+```
+
+And have yourself a great time!
 
 Run this as many times as needed.
 Edit this by hand if you're up for it.

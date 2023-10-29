@@ -3,7 +3,7 @@
 SMTP_SERVER: smtp.gmail.com
 SMTP_PORT: 587
 USERNAME: benjamin.heasly@gmail.com
-PASSWORD: 
+PASSWORD: hyka gold ycqk ybex
 
 TIMEZONE: 'US/Eastern'
 
@@ -11,14 +11,14 @@ PARTICIPANTS:
   - Joe & Carolyn <caroalic@maine.rr.com>
   - Nora of the North & Sebastian <lizheasly@gmail.com>
   - Daniel <benjamin.heasly@gmail.com>
-  - Rachel & Mark <rheasly@gmail.com>
+  - Leander Abdallah <rheasly@gmail.com>
   - Jesse & KT <jheasly@gmail.com>
   - Paul <paulheasly@gmail.com>
   - Leah & Phil <leahheasly@gmail.com>
   - Sarah <sjheasly@gmail.com>
   - Anna <annaheasly@gmail.com>
   - The McLeans <DLBullen@aol.com>
-  - The Chicagoans (Karen & Alex) <karen.l.bippus@gmail.com>
+  - The Bostonians (Karen & Alex) <karen.l.bippus@gmail.com>
   - Elizabeth <emily.c.bullen@gmail.com>
   - Lucy <lucy.d.bullen@gmail.com>
   - Patrice <phheasly@gmail.com>
@@ -35,25 +35,28 @@ PARTICIPANTS:
 DONT-PAIR:
   - Paul, Sarah, Anna, Patsy, Leah & Phil
   - Joe & Carolyn, Nora of the North & Sebastian, Daniel
-  - The Chicagoans (Karen & Alex), Elizabeth, Lucy, The McLeans
+  - The Bostonians (Karen & Alex), Elizabeth, Lucy, The McLeans
   - Hannah & Nora of the South & Jack & Amelia, Carolyn Luisa, Patrice, Kathryn
   - The Yardleys (Anne & Richard), Calvin, Elliot
+  - Leander Abdallah <rheasly@gmail.com>, Joe & Carolyn <caroalic@maine.rr.com>
 
 # From address should be the organizer in case participants have any questions
-FROM: Your Northern Lights of Christmas <benjamin.heasly@gmail.com>
+FROM: Ensemble Borealis <benjamin.heasly@gmail.com>
 
 # Both SUBJECT and MESSAGE can include variable substitution for the 
 # "santa" and "santee"
-SUBJECT: Your 2023 Northern Lights of Christmas of Joy -- Confirmation
+SUBJECT: Ensemble Borealis presents -- your 2023 Christmas Magic
 MESSAGE: |
   Dear {santa},
 
-  More greetings and more hugs!
+  Love and hugs to you!
 
-  This is to confirm that you are shopping for {santee} this year (we didn't get any change requests).
+  For Christmas 2023 we have you shopping for {santee}.
 
-  Great!
+  This is based on the info we have from 2022.
+  If you'd like to make a change for this year please reply to this email by Sunday November 5th!
+  We'll send out a confirmation email once that's all settled.
 
   Love,
 
-    -- Computer
+    -- All of us here at Ensemble Borealis
