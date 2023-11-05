@@ -3,7 +3,7 @@
 SMTP_SERVER: smtp.gmail.com
 SMTP_PORT: 587
 USERNAME: benjamin.heasly@gmail.com
-PASSWORD: hyka gold ycqk ybex
+PASSWORD:
 
 TIMEZONE: 'US/Eastern'
 
