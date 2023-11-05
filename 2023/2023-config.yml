@@ -33,29 +33,30 @@ PARTICIPANTS:
 
 # Warning -- if you mess this up you could get an infinite loop
 DONT-PAIR:
+  - John, Elizabeth
   - Paul, Sarah, Anna, Patsy, Leah & Phil
   - Joe & Carolyn, Nora of the North & Sebastian, Daniel
   - The Bostonians (Karen & Alex), Elizabeth, Lucy, The McLeans
   - Hannah & Nora of the South & Jack & Amelia, Carolyn Luisa, Patrice, Kathryn
   - The Yardleys (Anne & Richard), Calvin, Elliot
-  - Leander Abdallah <rheasly@gmail.com>, Joe & Carolyn <caroalic@maine.rr.com>
+  - Leander Abdallah, Joe & Carolyn
 
 # From address should be the organizer in case participants have any questions
 FROM: Ensemble Borealis <benjamin.heasly@gmail.com>
 
 # Both SUBJECT and MESSAGE can include variable substitution for the 
 # "santa" and "santee"
-SUBJECT: Ensemble Borealis presents -- your 2023 Christmas Magic
+SUBJECT: Ensemble Borealis presents -- your 2023 CONFIRMATION email
 MESSAGE: |
   Dear {santa},
 
-  Love and hugs to you!
+  Love and hugs to you, again!
 
-  For Christmas 2023 we have you shopping for {santee}.
+  This is to confirm that you're shopping for {santee} in 2023.
 
-  This is based on the info we have from 2022.
-  If you'd like to make a change for this year please reply to this email by Sunday November 5th!
-  We'll send out a confirmation email once that's all settled.
+  (or in a couple cases, to tell you who you're really shopping for)
+
+  Have a good one!
 
   Love,
 

@@ -64,5 +64,5 @@ Review this before sending!
 
 To go ahead and send the emails for realzies:
 ```
-python secret_santa.py --config 2021/2021-config.yml --pairings 2021/2021-pairings.yml --send
+python secret_santa.py --config 2023/2023-config.yml --pairings 2023/2023-pairings.yml --send
 ```
