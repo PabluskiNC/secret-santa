@@ -30,6 +30,7 @@ REQUIRED_CONFIG = (
     'TIMEZONE',
     'PARTICIPANTS',
     'DONT-PAIR',
+    'DONT-REPEAT',
     'FROM',
     'SUBJECT',
     'MESSAGE',
@@ -126,7 +127,12 @@ def main(argv):
         raise Exception()
 
     dont_pair = config['DONT-PAIR']
+    print("Don't pair:")
     print(dont_pair)
+    dont_repeat = config['DONT-REPEAT']
+    print("")
+    print("Don't repeat:")
+    print(dont_repeat)
     givers = []
     for person in participants:
         name, email = re.match(r'([^<]*)<([^>]*)>', person).groups()
@@ -138,6 +144,13 @@ def main(argv):
                 names.remove(name)
                 for other_name in names:
                     invalid_matches.append(other_name)
+        for dr in dont_repeat:
+            names = [n.strip() for n in dr.split(',')]
+            if name == names[0]:
+                names.remove(name)
+                for other_name in names:
+                    invalid_matches.append(other_name)
+
         person = Person(name, email, invalid_matches)
         givers.append(person)
 
