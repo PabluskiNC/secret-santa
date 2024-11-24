@@ -24,7 +24,7 @@ Each year, create a new folder for the year, like 2020, 2021, etc.
 
 Copy and modify a new config file, like `2021/2021-config.yml`, for example.
 
-Edit participants and "don't send" config based on email responses from the famdam this year.
+Edit participants, "dont pair", and "don't repeat" config based on email responses this year.
 
 Edit the email template if that seems fun!
 
