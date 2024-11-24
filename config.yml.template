@@ -3,7 +3,7 @@
 SMTP_SERVER: smtp.gmail.com
 SMTP_PORT: 587
 USERNAME: you@gmail.com
-PASSWORD: "you're-password"
+PASSWORD: "your-password"
 
 TIMEZONE: 'US/Pacific'
 
@@ -12,6 +12,7 @@ PARTICIPANTS:
   - Jen <jen@gmail.net>
   - Bill <Bill@somedomain.net>
   - Sharon <Sharon@hi.org>
+  - Sam <sam@example.com>
 
 
 # Warning -- if you mess this up you could get an infinite loop
@@ -19,6 +20,9 @@ DONT-PAIR:
   - Chad, Jen    # Chad and Jen are married
   - Chad, Bill   # Chad and Bill are best friends
   - Bill, Sharon
+
+DONT-REPEAT:
+  - Biil, Sam    # Bill got Sam last year
 
 # From address should be the organizer in case participants have any questions
 FROM: You <you@gmail.net>
